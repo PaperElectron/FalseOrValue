@@ -1,0 +1,26 @@
+{
+  "name": "falseorvalue",
+  "version": "1.0.0",
+  "description": "Returns the value of supplied argument, or false.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --ui bdd --reporter spec"
+  },
+  "keywords": [
+    "Utility"
+  ],
+  "author": "Jim <monstertke@paperelectron.com> (http://paperelectron.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperElectron/FalseOrValue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PaperElectron/FalseOrValue/issues"
+  },
+  "homepage": "https://github.com/PaperElectron/FalseOrValue#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
